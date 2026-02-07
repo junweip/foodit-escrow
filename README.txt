@@ -1,3 +1,6 @@
+Setup:
+pip install -r requirements.txt to install every package listed into your virtual environment
+
 PaymentIntent -> transfer from buyer to Stripe WITHOUT money transfer; solely for dashboard visualization
 Transfer -> transfer from Stripe to runner(supplier) WITHOUT money transfer; solely for dashboard visualization
 Charge -> actual money transfer
