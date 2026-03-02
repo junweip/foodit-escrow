@@ -1,5 +1,8 @@
 Setup:
 pip install -r requirements.txt to install every package listed into your virtual environment
+Activate .venv and run "uvicorn app.main:app --reload --port 8000" to run main.py
+Open http://localhost:8000/docs in browser to test all endpoints
+
 
 PaymentIntent -> transfer from buyer to Stripe WITHOUT money transfer; solely for dashboard visualization
 Transfer -> transfer from Stripe to runner(supplier) WITHOUT money transfer; solely for dashboard visualization
